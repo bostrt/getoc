@@ -16,3 +16,14 @@ $ getoc clean # Removes all downloaded binaries from ~/.local/getoc/bin
 ## Directories
 - The `oc` binaries downloaded are stored in `~/.local/getoc/bin`
 - `~/.local/getoc/bin` is automatically added to user's `$PATH`.
+
+## Development
+
+```shell
+$ git clone https://github.com/bostrt/getoc.git
+$ cd getoc
+$ virtualenv v
+$ source v/bin/activate
+$ pip install -e .
+$ getoc -h
+```
